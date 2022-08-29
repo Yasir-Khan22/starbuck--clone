@@ -9,3 +9,11 @@
 body {
     font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
+.navbar {
+    padding: 20px;
+}
+
+div a svg {
+    width: 50px;
+}
