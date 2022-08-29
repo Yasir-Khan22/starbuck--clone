@@ -38,3 +38,9 @@ body {
 .navbar-right {
     border: 2px solid red;
 }
+
+.find-a-store {
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+}
