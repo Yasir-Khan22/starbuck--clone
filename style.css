@@ -10,20 +10,14 @@ body {
     font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-.header {
-    border: 2px solid green;
-}
-
-nav {
-    border: 2px solid purple;
-}
-
 .navbar {
-    padding: 20px;
+    padding: 25px;
+    font-size: 14px;
 }
 
-div a svg {
+.navbar-left a svg {
     width: 50px;
+    margin-right: 20px;
 }
 
 .navbar-left div {
@@ -32,22 +26,13 @@ div a svg {
 }
 
 .navbar-left {
-    border: 2px solid red;
     display: flex;
     align-items: center;
 }
 
-.navbar-left a {
-    border: 2px solid red;
-}
-
-.navbar-left a svg {
-    border: 2px solid red;
-}
-
 .navbar-left>* {
+    padding: 10px;
 
-    padding: 20px;
 }
 
 .navbar-right {
