@@ -13,6 +13,9 @@ body {
 .navbar {
     padding: 25px;
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-left a svg {
@@ -25,7 +28,8 @@ body {
     font-weight: 600;
 }
 
-.navbar-left {
+.navbar-left,
+.navbar-right {
     display: flex;
     align-items: center;
 }
@@ -35,12 +39,20 @@ body {
 
 }
 
-.navbar-right {
-    border: 2px solid red;
-}
-
 .find-a-store {
     border: 2px solid red;
+    font-weight: 500;
     display: flex;
     align-items: center;
+    text-decoration: none;
+}
+
+.sign-in,
+.join-now {
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+
 }
