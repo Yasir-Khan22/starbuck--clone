@@ -91,4 +91,18 @@ body {
     background-color: #d4e9e2;
 }
 
+.product img {
+    max-width: 100%;
+}
+
+.product {
+    display: flex;
+}
+
+.left-product,
+.right-product {
+    width: 50%;
+}
+
+
 /* MAIN SECTION  */
