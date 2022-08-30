@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px solid red;
 }
 
 .navbar-left a svg {
