@@ -33,6 +33,7 @@ body {
     display: flex;
     align-items: center;
     gap: 2px;
+    cursor: pointer;
 }
 
 .navbar-left>*,
@@ -60,9 +61,17 @@ body {
 
 }
 
+.sign-in:hover {
+    background: #00754a;
+}
+
 .join-now {
     color: #fff;
     background: #000;
+}
+
+.navbar-left:hover {
+    color: #00754a;
 }
 
 .sign-in:hover {
