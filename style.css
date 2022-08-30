@@ -34,16 +34,15 @@ body {
 .navbar-right {
     display: flex;
     align-items: center;
+    gap: 2px;
 }
 
-.navbar-left>* {
+.navbar-left>*,
+.navbar-right>* {
     padding: 10px;
-    border: 2px solid red;
-
 }
 
 .find-a-store {
-    border: 2px solid red;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -54,6 +53,7 @@ body {
 .join-now {
     font-weight: 600;
     text-decoration: none;
+    text-align: center;
     padding: 5px 20px 5px 20px;
     border-radius: 20px;
     border: 2px solid black;
