@@ -11,16 +11,22 @@ body {
 }
 
 .navbar {
-    padding: 25px;
+    padding: 15px;
     font-size: 14px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: -1px 0px 12px 0px rgba(128, 115, 115, 0.75);
+    -webkit-box-shadow: -1px 0px 12px 0px rgba(128, 115, 115, 0.75);
+    -moz-box-shadow: -1px 0px 12px 0px rgba(128, 115, 115, 0.75);
 }
 
 .navbar-left a svg {
     width: 50px;
-    margin-right: 20px;
+}
+
+.navbar-left {
+    margin-left: 13px;
 }
 
 .navbar-left div {
@@ -32,8 +38,9 @@ body {
 .navbar-right {
     display: flex;
     align-items: center;
-    gap: 2px;
+    gap: 10px;
     cursor: pointer;
+
 }
 
 .navbar-left>*,
@@ -61,23 +68,20 @@ body {
 
 }
 
-.sign-in:hover {
-    background: #00754a;
-}
-
 .join-now {
     color: #fff;
-    background: #000;
+    background-color: #000;
 }
 
-.navbar-left:hover {
+.navbar-left div:hover,
+.find-a-store:hover {
     color: #00754a;
 }
 
 .sign-in:hover {
-    background: rgba(0, 0, 0, .06);
+    background-color: rgba(0, 0, 0, .06);
 }
 
 .join-now:hover {
-    background: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .7);
 }
