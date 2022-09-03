@@ -87,12 +87,17 @@ body {
 }
 
 /* MAIN SECTION  */
+main {
+    padding-top: 30px;
+}
+
 .product {
     background-color: #d4e9e2;
 }
 
 .product img {
     max-width: 100%;
+    object-fit: contain;
     height: 100%;
 }
 
@@ -102,6 +107,7 @@ body {
 
 .left-product,
 .right-product {
+    max-width: 50%;
     width: 50%;
     padding: 1.2rem 0;
 }
