@@ -164,11 +164,23 @@ main {
 
 /* PRODUCT 2 */
 .right-product2 {
-    display: flex;
+    /* display: flex;
     text-align: center;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    border: 2px solid red;
 
+}
+
+.product-title2 {
+    border: 2px solid white;
+    width: 50%;
+
+}
+
+.product-description2 {
+    text-align: center;
+    padding: 30px 60px 30px 60px;
 }
 
 .product-container2 {
