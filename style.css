@@ -166,5 +166,10 @@ main {
     background-color: #00754a;
 }
 
+.right-product2>.product-title,
+.product-description {
+    color: #ffffff;
+}
+
 /* PRODUCT 2 */
 /* MAIN SECTION  */
