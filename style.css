@@ -88,7 +88,7 @@ body {
 
 /* MAIN SECTION  */
 /* PRODUCT 1 */
-main {
+.product-container {
     padding-top: 30px;
 }
 
@@ -118,8 +118,9 @@ main {
 }
 
 .product-title,
+.product-title2,
 .product-description,
-.product-button {
+.product-description2 {
     width: 100%;
     text-align: center;
     color: white;
@@ -132,8 +133,9 @@ main {
     gap: 22px;
 }
 
-.product-title {
-    font-size: 26px;
+.product-title,
+.product-title2 {
+    font-size: 30px;
     font-weight: 600;
 
 }
@@ -150,9 +152,10 @@ main {
     margin-top: 10px;
 }
 
-.product-description {
+.product-description,
+.product-description2 {
     margin: 10px;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .product-button:hover {
@@ -166,9 +169,28 @@ main {
     background-color: #00754a;
 }
 
-.right-product2>.product-title,
-.product-description {
-    color: #ffffff;
+.product-title2,
+.product-description2 {
+    color: #fff;
+}
+
+.product-description2 {
+    text-align: center;
+}
+
+.product-button2 {
+    border: 2px solid #fff;
+    padding: 5px 20px 5px 20px;
+    width: max-content;
+    border-radius: 20px;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.product-button2:hover {
+    background-color: hsla(0, 0%, 100%, .12);
 }
 
 /* PRODUCT 2 */
