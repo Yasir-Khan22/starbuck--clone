@@ -130,7 +130,7 @@ body {
 .right-product {
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 30px;
 }
 
 .product-title,
