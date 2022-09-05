@@ -161,58 +161,8 @@ main {
 
 /* PRODUCT 1 */
 
-
 /* PRODUCT 2 */
-.right-product2 {
-    /* display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center; */
-    border: 2px solid red;
 
-}
-
-.product-title2 {
-    border: 2px solid white;
-    width: 50%;
-
-}
-
-.product-description2 {
-    text-align: center;
-    padding: 30px 60px 30px 60px;
-}
-
-.product-container2 {
-    background: #00754a;
-    border: 2px solid red;
-
-}
-
-.product-title2 {
-    font-size: 28px;
-    width: calc(1em * (calc(600 / 13)));
-
-}
-
-.product-button2 {
-    font-weight: 600;
-    text-decoration: none;
-    text-align: center;
-    padding: 5px 20px 5px 20px;
-    border-radius: 20px;
-    color: #000;
-    border: 2px solid black;
-    max-width: max-content;
-    margin: 0 auto;
-}
-
-.left-product2 img {
-    max-width: 100%;
-    object-fit: contain;
-    height: 100%;
-    border: 2px solid royalblue;
-}
 
 /* PRODUCT 2 */
 /* MAIN SECTION  */
