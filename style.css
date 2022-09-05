@@ -111,6 +111,7 @@ body {
     max-width: 50%;
     width: 50%;
     padding: 1.2rem 0;
+
 }
 
 .right-product {
@@ -121,6 +122,7 @@ body {
 .product-title2,
 .product-description,
 .product-description2 {
+
     width: 100%;
     text-align: center;
     color: white;
@@ -166,7 +168,7 @@ body {
 
 /* PRODUCT 2 */
 .product2 {
-    background-color: #00754a;
+    background-color: #006241;
 }
 
 .product-title2,
@@ -187,6 +189,7 @@ body {
     cursor: pointer;
     margin-top: 10px;
     color: #fff;
+
 }
 
 .product-button2:hover {
@@ -194,4 +197,13 @@ body {
 }
 
 /* PRODUCT 2 */
+
+
+
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 480px) {}
+
+/* MEDIA QUERIES */
 /* MAIN SECTION  */
