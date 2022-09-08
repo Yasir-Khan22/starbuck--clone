@@ -92,6 +92,13 @@ body {
     padding-top: 30px;
 }
 
+#product-container2 {
+    box-shadow: -1px 0px 12px 0px rgba(128, 115, 115, 0.75);
+    -webkit-box-shadow: -1px 0px 12px 0px rgba(128, 115, 115, 0.75);
+    -moz-box-shadow: -1px 0px 12px 0px rgba(128, 115, 115, 0.75);
+    padding-bottom: 30px;
+}
+
 .product {
     background-color: #d4e9e2;
 }
