@@ -204,6 +204,52 @@ body {
 }
 
 /* PRODUCT 2 */
-/* MEDIA QUERIES */
-/* MEDIA QUERIES */
+
 /* MAIN SECTION  */
+
+
+
+/* FOOTER  */
+.footer {
+    border: 2px solid red;
+    width: 100%;
+}
+
+.footer .col {
+    border: 2px solid black;
+    width: 190px;
+    height: auto;
+    float: left;
+}
+
+.footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 1.9rem;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: #000;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+}
+
+.footer .col ul {
+    color: rgba(0, 0, 0, .58);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 2px solid green;
+}
+
+
+/* FOOTER  */
+
+
+
+
+
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
