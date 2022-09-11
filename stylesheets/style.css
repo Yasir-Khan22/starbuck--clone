@@ -253,25 +253,3 @@ body {
 }
 
 /* FOOTER  */
-
-
-
-
-
-
-/* MEDIA QUERIES */
-@media only screen and (min-width: 1280px) {
-    .contain {
-        width: 1200px;
-        margin: 0 auto;
-    }
-}
-
-@media only screen and (max-width: 1139px) {
-    .contain {
-        width: 1000px;
-        display: block;
-    }
-}
-
-/* MEDIA QUERIES */
