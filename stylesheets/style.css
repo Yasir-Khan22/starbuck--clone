@@ -211,14 +211,12 @@ body {
 
 /* FOOTER  */
 .footer {
-    /* border: 2px solid red; */
     width: 100%;
 }
 
 .footer .col {
     margin: 20px;
     padding: 20px;
-    /* border: 2px solid black; */
     width: 190px;
     height: auto;
     float: left;
@@ -240,7 +238,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* border: 2px solid green; */
+
 }
 
 .footer .col ul li {
